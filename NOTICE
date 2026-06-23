@@ -1,0 +1,32 @@
+japanese-tech-writing — provenance / 来歴
+=========================================
+
+このスキルは、既存の二つの著作物を組み合わせ、欠落を補って拡張したものです。
+各部分の権利関係は LICENSE に対応します。
+
+1. 規範本文（reference/rules.md）
+   源流: k16shikano「日本語技術文書の文章規範」
+   https://gist.github.com/k16shikano/fd287c3133457c4fd8f5601d34aa817d
+   ライセンス: Unlicense（パブリックドメイン）
+   扱い: 源流の全文を要約せず収録。源流が単一ファイルに inline していた
+         「見出しの付け方」「読者への誠実さ」を含む全観点・全ての悪い例/良い例を
+         欠落なく写しています。
+
+2. 運用と補助資料（SKILL.md のモード運用、reference/checklist.md の点検項目と
+   6軸採点ルーブリック、reference/ng-vocab.md の AI 臭語彙リスト）
+   由来: hikimay「japanese-tech-writing」
+   https://github.com/hikimay/japanese-tech-writing
+   ライセンス: MIT
+   扱い: モードA/B/C の運用、チェックリスト、採点ルーブリック、語彙リストの
+         構成を継承。MIT の帰属義務に従い、ここに出典を明記します。
+         checklist.md には、源流にあって上記由来元が省いていた
+         「見出しの付け方」「読者への誠実さ」の点検項目を追補しています。
+
+3. AI 臭語彙の孫ソース
+   iKora128 / Daichi Nagashima「stop-ai-slop-jp」
+   https://github.com/iKora128/stop-ai-slop-jp
+   ライセンス: MIT
+   扱い: ng-vocab.md の語彙が（2 を経由して）参照する元データ。
+
+本リポジトリの著者が新たに加えた部分（スキルとしての統合、SKILL.md の文章、
+checklist.md への追補、本 NOTICE と README）は MIT License です。
