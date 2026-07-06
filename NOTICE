@@ -30,3 +30,9 @@ japanese-tech-writing — provenance / 来歴
 
 本リポジトリの著者が新たに加えた部分（スキルとしての統合、SKILL.md の文章、
 checklist.md への追補、本 NOTICE と README）は MIT License です。
+
+スキル名は `japanese-tech-writing-ex` としています。Claude スキルには
+プラグイン以外に名前空間がなく、同名スキルは上書きで解決されるため、
+上流（k16shikano gist の派生である hikimay/japanese-tech-writing）と
+共存でき、かつ派生物であることを識別子で示せるよう、別名の `-ex`
+（extended：源流全文を収録した拡張版）を採用しました。

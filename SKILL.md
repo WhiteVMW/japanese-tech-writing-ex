@@ -1,18 +1,20 @@
 ---
-name: japanese-tech-writing
+name: japanese-tech-writing-ex
 description: "生成AIに日本語の技術文書（書籍の章・記事・解説）を作成・推敲させるときの文章規範を適用するスキル。論理的で誠実な日本語テクニカルライティングを生成し、LLM特有の空虚な言い回し・冗長・過剰演出・AI臭の語彙を抑制する。公開前の採点も可能。Triggers: 日本語技術文書, テクニカルライティング, 技術記事を書いて, 解説文を書いて, 技術文書を推敲, 文章を校正, AIっぽい文章を直す, AI臭を消す, 公開前チェック, write Japanese technical doc, japanese tech writing."
 metadata:
-  version: "2.0.0"
-  last_updated: "2026-06-23"
+  version: "2.1.0"
+  last_updated: "2026-07-02"
   status: active
   source: "https://gist.github.com/k16shikano/fd287c3133457c4fd8f5601d34aa817d （日本語技術文書の文章規範 / Unlicense。reference/rules.md に全文を収録）"
   derived_from: "https://github.com/hikimay/japanese-tech-writing （MIT。モード運用・checklist・採点ルーブリック・ng-vocab の構成を継承）"
   related: "https://github.com/iKora128/stop-ai-slop-jp （MIT。AI臭の語彙リストの孫ソース）"
 ---
 
-# japanese-tech-writing
+# japanese-tech-writing-ex
 
 生成AIに日本語の技術文書（書籍の章、技術記事、解説文など）を**書かせる／推敲させる**ときに、文章の質を制御するためのスキルです。`k16shikano` 氏の「日本語技術文書の文章規範」に基づき、論理的で誠実な日本語テクニカルライティングを生成し、LLMが陥りがちな「ちゃんと書いている感」だけの文章を避けます。
+
+名前の `-ex`（extended）は、源流 gist の規範を**全文（要約なし）**収録したうえで、派生元スキルの運用（生成／推敲／採点）を継承した拡張版であることを示します。上流や同名の派生スキルと**共存できるよう別の識別子**にしています。来歴は [NOTICE](NOTICE) を参照してください。
 
 このスキルが対象とするのは、**論理で読ませる説明文**です。マーケティングコピーや小説など、演出が主目的の文章には適用しません。
 
